@@ -2,15 +2,23 @@
 <html>
 	<head>
     	<meta charset="utf-8" />
-		<title>Thumbslider</title>
+		<title>LinkIt Demo</title>
 		<link rel="stylesheet" href="css/style.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="js/script.js"></script>
+		<script src="js/jquery.linkIt.js"></script>
+        <script>
+        	$(document).ready(function() {
+				$("span").linkIt({
+					href: "http://test.com",	
+					text: "Click Me",
+					target: "_blank"
+				});					   
+			});
+        </script>
 	</head>
 	<body>
-    	<div id="container">
-        	
-        </div>
+    	<h1>LinkIt Demo</h1>
+        <p>This is the jQuery LinkIt plugin demo. Let's make <span>this text</span> into a link</p>
 	</body>
 </html>

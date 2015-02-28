@@ -1,1 +1,33 @@
-hello
+{
+	"name": "linkIt",
+	"title": "LinkIt jQuery Plugin",
+	"description": "Simple plugin to convery any element into a link",
+	"keywords": [
+	"link",
+	"html",
+	"content"
+	],
+	"version": "0.1.0",
+	"author": {
+	"name": "Marcus Eubanks",
+	"url": "http://www.meinnovation.net"
+	},
+	"maintainers": [
+		{
+	"name": "Marcus Eubanks",
+	"email": "mse233@aol.com",
+	"url": "http://www.meinnovation.net"
+		}
+	],
+	"licenses": [
+		{
+	"type": "MIT",
+	"url": "https://github.com/mse2321/jquery.linkIt/MIT_license.txt"
+		}
+	],
+	"homepage": "https://github.com/mse2321/jquery.link",
+	"docs": "https://github.com/mse2321/jquery.link",
+	"dependencies": {
+	"jquery": ">=1.9"
+	}
+}
